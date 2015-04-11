@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="eventsListHelp">
+<![CDATA[
+<h1>EVENTS HELP</h1>    
+<p>This screen lists individual match events recorded from the <b>MATCH</b>
+screen.  IF you make errors in recording events they can be edited or deleted
+from this screen. If you miss events, they can be inserted from here.</p>
+
+<p>Tap on a match event to get options to edit or delete existing events or to insert
+new events or substitutions</p>
+
+<p>Inserted events are added immediately after the selected event with the same
+time stamp<p>
+
+<p><b>IMPORTANT SUBSTITUTION LIMITATION</b><br> 
+ Substitutions edited or inserted from this page will be updated in the list of match
+ events, in the list of substitutions on the <b>TEAM</b> screen and in the
+ summary <b>REVIEW</b> screen.  However the team lineup used in the <b>TEAM</b> screens
+ and in recording stats events is <b>NOT</b> updated automatically. If you want substitutions
+ to be reflected in the team lineups you\'ll have to go to <b>TEAM</b> page
+ and make the change manually
+</p>
+
+    
+    ]]>
+    </string>
+    
+    
+    <string name="teamHelp">
+<![CDATA[
+<h1>CONTACT DETAILS</h1>
+<b>email:</b> gaaapps@gmail.com<br/>
+Suggestions for improvements or error reports are welcome.<br/><br/>
+
+follow twitter<b> @gaaapps</b> for updates and team downloads<br/><br/>
+
+ <h1>HELP - TEAM SCREEN</h1>
+
+<p>Touch <b>change team name</b> button to enter a new name for the current team. (Dont use 
+duplicate team names. Always use a unique name.)<br/><br/></p>
+<p>
+<p>Touch <b>reset team selection</b> to reset all positions back to a number.  Note that player 
+names already entered are saved for reuse.</p>
+<b>TEAM SELECTION</b><br/>
+Select the team lineup by touching any of the position buttons to get option to <b>enter 
+new player name</b> or select from list of available players.<br/>
+Repeat for each position.<br/>
+To remove a player from a position, touch the button and choose option to <b>reset position
+to number</b> or touch on an available player to swap them in.<br/><br/>
+To change the name of an entered player or correct mistakes you need to delete them 
+(menu option) and re enter the name.
+</p>
+<p>
+<b>ADDITIONAL PLAYERS / SUBS</b><br/>
+If you have more than 15 players it is best to enter all names before the start so that they 
+can be swapped in as subs during the match. <br/>Add additional players by clicking on any position
+button and choosing the <b>enter new player name</b> option. Repeat on the same button until 
+all players on the panel are entered. Then touch on the position button again and swap back in
+the original player selected.<br/><br/>
+Touch <b>make substitution</b> or
+ <b>make blood sub</b> to record a substitution in the list of match/stats events.
+ You will be asked to select which player is going on and then select player coming off.
+ (Note that the name of the player going on must exist on the team already i.e. their
+ name must have been entered previously (see paragraph above).) <br/><br/></p>
+<p>Touch <b>view subs/cards</b> to display list of cards and subs full screen<br/><br/></p>
+
+
+</p> 
+
+<p><b>tweet selection</b><br/>
+To send Tweets, you need to have the Twitter App, or equivalent, installed on your device and you must
+be logged in on Twitter.<br/><br/>
+Touch <b>tweet selection</b> to tweet an image/picture containing your current team selection from 1 to 15. 
+(Note that on some 
+devices the picture may not be visible on the send Twitter screen but it will be added
+when you send the tweet.)
+<br/><br/>
+Touch <b>tweet subs/cards</b> to tweet an image/picture containing your current team 
+selection from 1 to 15 plus a list of cards issued and substitutions made 
+</p>
+
+<p><b>text selection</b><br/>
+To send texts, your device must be capable of sending sms messages.  You can setup the 
+phone number or numbers to send texts to in the 
+<b>MENU</b> section of the <b>SCORES</b> page.
+ Touch <b>Text selection</b> to text your current team selection/lineup from 1 to 15.</p>
+<p><b>share selection</b><br/>
+ Touch <b>share selection</b> to email your current team selection/lineup from 1 to 15.</p>
+ 
+ <p><b>save selection to summary</b><br/>
+ Touch <b>save selection to summary</b> to save/store the current team selection/lineup from 
+ 1 to 15 into the match summary data.  Use this option as often as you wish to record 
+ how the team line up changes with positional changes and/or substitutions. Each selection
+ will be recorded as an image and a text file, with a timestamp, and can then be 
+ shared/emailed using the <b>share match summary</b> button on the <b>REVIEW</b> screen.</p>
+ 
+
+<p>
+<b>ACTION BAR MENU</b><br/>
+<b>delete a player</b> - delete a player from the current team panel.<br/>
+<b>rename a player</b> - rename a player from the current team panel. Select player to rename
+and then type in new name. N.B. best not to rename a player while a match is running, the match
+events, subs, cards data will not be updated with the new name. Rename before match starts.<br/>
+<b>create new team</b> - create a new team, you will be prompted for the team name.  Note that
+the current team, players and team lineup are automatically saved and can be retrieved later.<br/>
+<b>load a saved team</b> - retrieve a previously saved team, you can select the name from a list. Note that a team
+loaded in the other team screen will not be available<br/>
+<b>delete a team</b> - delete an existing team, you will be asked to select name from list.  Note that 
+currently active teams can not be deleted.<br/>
+<b>reset current team selection</b> - reset all positions back to a number.  Note that player 
+names already entered are saved for reuse.<br/>
+
+<b>import team from text file</b> - see below.<br/>
+<b>export team to text file</b> - saves the current team selection/panel to a text file
+on the device storage. The text file is stored in a directory called GAA_App_Export.  The text 
+file can be shared by email or uploaded to DropBox (or equivalent).  The text file is correctly
+formated so that it can be imported by this App on other devices. (Youll probably need a 
+File Explorer/Manager App installed which allows 
+you to navigate your devices file system e.g. ES File Explorer.)<br/>
+<b>auto import downloaded team</b> - see below.<br/>
+</p>
+
+<p>
+<b>AUTO IMPORT DOWNLOADED TEAM</b><br/>
+This option enables you to automatically download team panels which are made
+available through the @gaaapps twitter account.  Go to the the @gaaapps
+twitter account and click on the download link in the relevant tweet for the team you want (and 
+you may have to do this twice depending on your device setup).
+You must select the options to <b><i>download</b></i> the file, not just view it in a browser
+or screen.  Once download is complete come back to this App and selecting
+this option should automatically import the downloaded team.<br/><br/>
+
+If it does not work check that a file named <b><i>appGAASCORESSTAT.txt</i></b> has been
+downloaded to your <b>Downloads</b> folder.  If not, use the <b>import team from text file</b>
+option below to manually find and import the downloaded file.
+
+</p>
+
+<p>
+<b>IMPORT TEAM FROM TEXT FILE</b><br/>
+This options allows you to type out a team/panel in a text editor or word processor, save or
+copy or email etc. it to the device and then import it into this App.<br/><br/>
+<b>Steps</b><br/><br/>
+<b>1. prerequisite: </b> You must have a File Explorer/Manager App installed which allows 
+you to navigate your devices file system e.g. ES File Explorer.<br/><br/>
+<b>2. create text file: </b> Use a simple text editor or word processor to create
+a file in the following exact format:<br/><br/>
+<b>teamstart,<br/>
+Anthony Nosh,<br/>
+Jackie Tyrant,<br/>
+Noel Stickey,<br/>
+Joel Coen,<br/>
+Tommy Whoosh,<br/>
+Seanie MacNificent,<br/>
+Sean Og OHelpme,<br/>
+Michael Funnily,<br/>
+Alan McLobster,<br/>
+Eoin Lurkin,<br/>
+Henry Shufflin,<br/>
+Da Burke,<br/>
+DJ Scarey,<br/>
+Joe Cunning,<br/>
+John Mullet,<br/>
+Michael Nice,<br/>
+Shane Hooley,<br/>
+Michael Curtins,<br/>
+Block Walsh,<br/>
+teamend<br/><br/>
+</b>
+Firstline must be <b><i>teamstart,</i></b> (note comma at end of line)<br/>
+Then enter one name per line with a comma at the end of the line<br/>
+The first 15 names will be assigned to positions 1 to 15 in the 
+order they are entered.<br/>
+The final line must be <b><i>teamend</i></b> (no comma)<br/><br/>
+<b>3. save file </b> save the file somewhere as a text file with suffix <i>.txt</i>  
+(if using a word 
+processor you will need to <i>save as</i> or "export</i> to a text file format).<br/><br/>
+<b>4. get file onto device </b> transfer or save your text file onto your device
+into a directory or location where you can find it. (email, bluetooth, sdcard, usb cable
+etc. maybe used to get file onto device depending on what you are doing. <br/><br/>
+<b>5. select the <i>import team from text file</i> option from the App menu</b> 
+You should now be able to use your pre installed File Explorer App to navigate to the
+text file and select it<br/><br/>
+<b>6. change team name </b> The text file will be read in and a new team created.
+Use the <b> change team name</b> button to give your team a meaningful name and you are done.
+ <br/><br/>
+
+</p>
+
+ 
+ ]]>
+    </string>
+    <string name="scoresHelp">
+<![CDATA[
+<h1>CONTACT DETAILS</h1>
+<b>email:</b> gaaapps@gmail.com<br/>
+Suggestions for improvements or error reports are welcome.<br/><br/>
+
+follow twitter<b> @gaaapps</b> for updates and team downloads<br/><br/>
+
+
+<h1>HELP - MATCH SCREEN</h1>
+<p>
+<b>TIMER SECTION</b><br/>
+Touch <b>start/stop</b> button to control timer.<br/>
+Touch <b>mins/half</b> button to set timer length.
+<br/>
+Touch <b>1st half</b> button to set period of match. Extra time can be selected.
+<br/>
+Touch <b>-</b> or <b>+</b> button to increment or decrement timer by 30 secs.
+</p>
+<p>
+<b>SCORES SECTION</b><br/>
+Team names can be changed by swiping to the <b>TEAM 1</b> or <b>TEAM 2</b> pages.<br/>
+Touch <b>goals or points</b> buttons to increase score.<br/>
+Touch <b>-</b> buttons to decrease score.
+<br/>
+Touch <b>enter stats</b> button to get to stats recording screen.<br/>
+Touch <b>undo last stats entry</b> to delete the most recent stats entry.
+ (Note you can delete any previously entered stats entry from the <b>Review</b>
+ screen.)<br/>
+</p>
+<p>
+<b>ENTER STATS</b><br/>
+You can record 1, 2 or 3 stats items per event - touch one item from the blue section,
+touch a qualifying item from the orange section and touch an associated player from the green/grey section. <br/>
+Touch <b>OK</b> to complete entry and return to SCORES screen.<br/>
+
+</p>
+
+<p><b>COMMENTS</b><br/>
+Touch on the <b>comment</b> field to enter any additional details/info such as location, competition, hashtags for tweets, etc.
+</p>
+
+<p>
+<b>MATCH EVENTS SECTION</b><br/>
+The last four match events recorded in the ENTER STATS screen are displayed here. (Swipe to
+the <b>STATS</b> screen to see the complete list of all match events.)<br/>
+
+Touch <b>reset all</b> to delete all stats events, reset timer and reset scores to zero.
+</p>
+<p>
+<b>TWEET/TEXT SECTION</b><br/>
+To send Tweets, you need to have the Twitter App, or equivalent, installed on your device and you must
+be logged in.<br/>
+For texts, your device must be capable of sending sms messages.  You can setup the number or numbers to send texts to in the 
+<b>MENU</b> section.<br/><br/>
+Touch <b>tweet score</b> or <b>text score</b> to send the current score. 
+The contents (if any) of the <b>comment</b> field
+will also be included.
+<br/><br/>
+Touch <b>tweet score + last</b> or <b>text score + last</b> to send the current score plus the last stats/match event entered. 
+The contents (if any) of the <b>comment</b> field
+will also be included.
+<br/><br/>
+Touch <b>tweet selected</b> or <b>text selected</b> to get a screen with a list of: comment, score, the last 10 stats/match 
+event entered. Touch on the items you want to include in the tweet / text.  Note that tweets are limited to 140 characters 
+so you will be limited to 3 or 4 items.
+</p>
+<p>
+<b>ACTION BAR MENU</b><br/>
+<b>setup texts</b> - enter the phone number to send sms texts to. You can enter more than one number, just use a comma to 
+separate the phone numbers.<br/>
+<b>reset timer</b> - reset timer to 0<br/>
+<b>reset score</b> - reset score to 0<br/>
+<b>reset stats</b> - delete all stats events and reset stats summary to 0<br/>
+<b>reset all</b> - reset timer, scores, stats and delete comment<br/>
+</p>
+]]>
+    </string>
+    <string name="reviewHelp">
+<![CDATA[
+<h1>CONTACT DETAILS</h1>
+<b>email:</b> gaaapps@gmail.com<br/>
+Suggestions for improvements or error reports are welcome.<br/><br/>
+
+<h1>HELP - REVIEW SCREEN</h1>
+<p>
+Summary of match stats is shown at top of screen.<br/><br/>
+
+<b>*** Total Puckouts</b> - this stat is incremented every time you record 
+a <b><i>goal</i></b> or <b><i>point</i></b> or <b><i>wide</i></b>
+from the stats screen for the opposite team. <br/><br/>
+<b>Total Shots</b> is the sum of <b><i>goals</i></b>, <b><i>points</i></b>, <b><i>wides</i></b>, 
+<b><i>out for 45/65</i></b>, <b><i>off posts</i></b> and <b><i>saved/short</i></b><br>
+<b>Scored</b> is the sum of <b><i>goals</i></b> and <b><i>points</i></b> 
+<br/><br/>
+List of match/stats events recorded is displayed at the bottom of the screen. Swipe up/down
+to scroll.<br/><br/>
+You can long press on any of the rows to delete that particular stats entry / match event.
+Displayed scores and stats will be adjusted automatically where relevant.
+</p>
+
+<p>
+<p><b>tweet match stats</b><br/>
+What it says!</p>
+<p>
+Touch <b>share match summary</b> to email all recorded match data including: team selections, score, stats summary, 
+cards, substitutions list of match/stats events recorded, list of scorers.
+</p>
+
+
+
+]]>
+    </string>
+    <string name="scorersHelp">
+<![CDATA[
+<h1>CONTACT DETAILS</h1>
+<b>email:</b> gaaapps@gmail.com<br/>
+Suggestions for improvements or error reports are welcome.<br/><br/>
+
+follow twitter<b> @gaaapps</b> for updates and team downloads<br/><br/>
+
+<h1>HELP - SCORERS SCREEN</h1>
+<p>
+Summary of scorers recorded using the 
+<b><i>ENTER STATS</i></b> on the MATCH 
+screen is shown for both teams.<br/><br/>
+First Column is total scored per person. If no name was recorded for a score, the scores
+are lumped together under unknown<br/><br/>
+Second Column is scores from frees, penalties, 45/65s and sidelines.<br/><br/>
+Third Column - <b><i>misses**</i></b> - is sum of wides, off posts and saved/short. 
+</p>
+
+<p>Swipe list to see all scorers if necessary</p>
+
+<p><b>tweet scores</b><br/>
+What it says!</p>
+
+<p><b>share scores</b><br/>
+Email the Scorers List</p>
+
+]]>
+    </string>
+
+</resources>

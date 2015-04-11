@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/helpTeam"
+        android:icon="@android:drawable/ic_menu_help"
+        android:showAsAction="always"
+        android:title="help">
+    </item>
+    <item
+        android:id="@+id/deletePlayer"
+        android:showAsAction="ifRoom"
+        android:title="delete a player"/>
+    <item
+        android:id="@+id/renamePlayer"
+        android:showAsAction="ifRoom"
+        android:title="rename a player"/>
+    <item
+        android:id="@+id/createNewTeam"
+        android:showAsAction="ifRoom"
+        android:title="create new team"/>
+    <item
+        android:id="@+id/loadSavedTeam"
+        android:showAsAction="ifRoom"
+        android:title="load a saved team"/>
+    <item
+        android:id="@+id/deleteTeam"
+        android:showAsAction="ifRoom"
+        android:title="delete a team"/>
+    <item
+        android:id="@+id/resetTeam"
+        android:showAsAction="ifRoom"
+        android:title="reset current team selection"/>
+    <item
+        android:id="@+id/importTeam"
+        android:showAsAction="ifRoom"
+        android:title="import team from text file"/>
+    <item
+        android:id="@+id/exportTeam"
+        android:showAsAction="ifRoom"
+        android:title="export team to text file"/>
+    <item
+        android:id="@+id/downloadTeam"
+        android:showAsAction="ifRoom"
+        android:title="auto import downloaded team"/>
+    
+</menu>

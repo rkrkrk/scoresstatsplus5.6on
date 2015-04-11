@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearr01"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentTop="true"
+            android:clickable="false"
+            android:orientation="horizontal"
+            android:paddingBottom="2dp"
+            android:paddingTop="2dp" >
+
+            <Button
+                android:id="@+id/bHome"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_home"
+                android:padding="4dp"
+                android:text="Home Team Only"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/bAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_cyanb"
+                android:padding="4dp"
+                android:text="All Match Events"
+                android:textSize="12sp" />
+
+            <Button
+                android:id="@+id/bOpp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_opp"
+                android:padding="4dp"
+                android:text="Opposition Team Only"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/linearr01"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@android:id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </ListView>
+
+            <TextView
+                android:id="@+id/android:empty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="No match events recorded yet"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
