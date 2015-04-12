@@ -991,9 +991,11 @@ public class ReviewFragment extends Fragment {
 			sb.append("Team 1: " + tOwnTeam.getText() + "\n");
 
 			// reset line up and read from database
-			cL = new CursorLoader(getActivity(), allTitles, projection1,
-					TeamContentProvider.TEAM + " = '" + tOwnTeam.getText()
-							+ "'", null, TeamContentProvider.POSN);
+//			cL = new CursorLoader(getActivity(), allTitles, projection1,
+//					TeamContentProvider.TEAM + " = '" + tOwnTeam.getText()
+//							+ "'", null, TeamContentProvider.POSN);
+            cL = new CursorLoader(getActivity(), allTitles, projection1, "team=?",
+                    new String[] { tOwnTeam.getText().toString() }, TeamContentProvider.NAME);
 			Cursor c1 = cL.loadInBackground();
 			if (c1.getCount() > 0) {
 				c1.moveToFirst();
@@ -1019,9 +1021,11 @@ public class ReviewFragment extends Fragment {
 
 			sb.append("\nTeam 2: " + tOppTeam.getText() + "\n");
 
-			cL = new CursorLoader(getActivity(), allTitles, projection1,
-					TeamContentProvider.TEAM + " = '" + tOppTeam.getText()
-							+ "'", null, TeamContentProvider.POSN);
+//			cL = new CursorLoader(getActivity(), allTitles, projection1,
+//					TeamContentProvider.TEAM + " = '" + tOppTeam.getText()
+//							+ "'", null, TeamContentProvider.POSN);
+            cL = new CursorLoader(getActivity(), allTitles, projection1, "team=?",
+                    new String[] { tOppTeam.getText().toString() }, TeamContentProvider.NAME);
 			c1 = cL.loadInBackground();
 			if (c1.getCount() > 0) {
 				c1.moveToFirst();

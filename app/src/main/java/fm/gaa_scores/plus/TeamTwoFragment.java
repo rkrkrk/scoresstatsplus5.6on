@@ -1901,26 +1901,26 @@ public class TeamTwoFragment extends Fragment {
 			// create team name
 
 			// check if format is correct
-			if ((buf.toString().toLowerCase().startsWith("teamstart,"))
+			if ((buf.toString().toLowerCase().contains("teamstart,"))
 					&& (buf.toString().toLowerCase().endsWith(",teamend"))) {
 				// good to go
 				// chop off start and end
-				String strTemp[] = buf.toString()
-						.substring(10, buf.toString().length() - 8)
-						.split(",", -1);
-				int inputNum = strTemp.length;
-				// check for name
-				if ((strTemp[strTemp.length - 1].toLowerCase()
-						.startsWith("teamname:"))
-						&& (strTemp[strTemp.length - 1].split(":").length == 2)) {
-					panelName = strTemp[strTemp.length - 1].split(":")[1];
-					inputNum = inputNum - 1;
-				} else {
-					SimpleDateFormat sdf = new SimpleDateFormat("HHmmddMMyyyy");
-					Date date = new Date(System.currentTimeMillis());
-					panelName = "team." + sdf.format(date);
-				}
-
+                int start = buf.toString().indexOf("teamstart")+10;
+                String strTemp[] = buf.toString()
+                        .substring(start, buf.toString().length() - 8)
+                        .split("[,;]", -1);
+                int inputNum = strTemp.length;
+                // check for name
+                if ((strTemp[strTemp.length - 1].toLowerCase()
+                        .startsWith("teamname:"))
+                        && (strTemp[strTemp.length - 1].split(":").length == 2)) {
+                    panelName = strTemp[strTemp.length - 1].split(":")[1];
+                    inputNum = inputNum - 1;
+                } else {
+                    SimpleDateFormat sdf = new SimpleDateFormat("HHmmddMMyyyy");
+                    Date date = new Date(System.currentTimeMillis());
+                    panelName = "team." + sdf.format(date);
+                }
 				for (int i = 1; i < 10; i++) {
 					// check if name exists and append __i if it does
 					String[] args = { panelName };

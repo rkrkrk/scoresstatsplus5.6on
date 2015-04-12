@@ -350,7 +350,6 @@
         android:paddingTop="0dp" >
 
         <TextView
-            android:id="@+id/TextView12"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="top"

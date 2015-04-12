@@ -458,9 +458,12 @@ public class EventsListFragment extends ListFragment {
 		for (int j = 1; j <= 25; j++) {
 			teamLineUp[j] = String.valueOf(j);
 		}
-		cL = new CursorLoader(getActivity(), allTitles, projection,
-				TeamContentProvider.TEAM + " = '" + teamName + "'", null,
-				TeamContentProvider.NAME);
+        cL = new CursorLoader(getActivity(), allTitles,
+                projection, "team=?", new String[] { teamName },
+                TeamContentProvider.NAME);
+//		cL = new CursorLoader(getActivity(), allTitles, projection,
+//				TeamContentProvider.TEAM + " = '" + teamName + "'", null,
+//				TeamContentProvider.NAME);
 		Cursor c1 = cL.loadInBackground();
 		if (c1.getCount() > 0) {
 			c1.moveToFirst();
