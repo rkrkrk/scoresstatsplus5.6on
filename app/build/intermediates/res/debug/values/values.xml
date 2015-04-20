@@ -43,6 +43,19 @@
         <item>ET 2nd</item>
     </string-array>
     <drawable name="greenBG">#008800</drawable>
+    <!-- From: file:/C:/Users/fm/AndroidStudioProjects/gaaScoresStatsOrig5_6on/app/src/main/res/values/ids.xml.xml -->
+    <eat-comment/>
+    <item name="scoresfragment991" type="id"/>
+    <item name="team1_994" type="id"/>
+    <item name="team1_995" type="id"/>
+    <item name="team1_996" type="id"/>
+    <item name="team1_997" type="id"/>
+    <item name="team2_990" type="id"/>
+    <item name="team2_991" type="id"/>
+    <item name="team2_992" type="id"/>
+    <item name="team2_993" type="id"/>
+    <!-- From: file:/C:/Users/fm/AndroidStudioProjects/gaaScoresStatsOrig5_6on/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
     <string name="app_name">gaa scores stats plus</string>
     <!-- From: file:/C:/Users/fm/AndroidStudioProjects/gaaScoresStatsOrig5_6on/app/src/main/res/values/help_strings.xml -->
     <eat-comment/>

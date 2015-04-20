@@ -1030,7 +1030,7 @@ public class TeamTwoFragment extends Fragment {
 	private void changeName() {
 		AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
 		input = new EditText(getActivity());
-		input.setId(997);
+		input.setId(R.id.team2_990);
 		input.setText(panelName);
 		alert.setTitle("Enter New Team Name");
 		alert.setMessage("Name:");
@@ -1128,7 +1128,7 @@ public class TeamTwoFragment extends Fragment {
 	private void createNewTeam() {
 		AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
 		input = new EditText(getActivity());
-		input.setId(996);
+		input.setId(R.id.team2_991);
 		alert.setTitle("Enter New Team Name");
 		alert.setMessage("Name:");
 		alert.setView(input);
@@ -1356,7 +1356,7 @@ public class TeamTwoFragment extends Fragment {
 							AlertDialog.Builder alertB = new AlertDialog.Builder(
 									getActivity());
 							input = new EditText(getActivity());
-							input.setId(997);
+							input.setId(R.id.team2_992);
 							input.setText(player);
 							alertB.setTitle("Rename Player");
 							alertB.setMessage("Name:");
@@ -1552,7 +1552,7 @@ public class TeamTwoFragment extends Fragment {
 										AlertDialog.Builder alert = new AlertDialog.Builder(
 												getActivity());
 										input = new EditText(getActivity());
-										input.setId(999);
+										input.setId(R.id.team2_993);
 										alert.setTitle("Enter new Player Name");
 										alert.setMessage("Enter Name:");
 										alert.setView(input);

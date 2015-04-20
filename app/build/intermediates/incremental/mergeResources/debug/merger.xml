@@ -369,7 +369,7 @@ Email the Scorers List</p>
         <item>2nd Half</item>
         <item>Extra Time 1st Period</item>
         <item>Extra Time 2nd Period</item>
-    </string-array><string name="hello_world">Hello world!</string><drawable name="greenBG">#008800</drawable><string name="menu_settings">Settings</string><string-array name="periodShort">
+    </string-array><drawable name="greenBG">#008800</drawable><string name="hello_world">Hello world!</string><string name="menu_settings">Settings</string><string-array name="periodShort">
         <item>1st half</item>
         <item>2nd half</item>
         <item>ET 1st</item>
@@ -386,4 +386,4 @@ Email the Scorers List</p>
         <!-- API 11 theme customizations can go here. -->
     </style></file><file path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\src\main\res\values-v14\styles.xml" qualifiers="v14"><style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         <!-- API 14 theme customizations can go here. -->
-    </style></file></source><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\generated\res\rs\debug"/><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\src\debug\res"/></dataSet><mergedItems/></merger>
+    </style></file><file path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\src\main\res\values\ids.xml.xml" qualifiers=""><item name="team2_991" type="id"/><item name="team2_990" type="id"/><item name="team1_997" type="id"/><item name="team2_993" type="id"/><item name="team2_992" type="id"/><item name="team1_995" type="id"/><item name="team1_996" type="id"/><item name="team1_994" type="id"/><item name="scoresfragment991" type="id"/></file></source><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\generated\res\rs\debug"/><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\src\debug\res"/></dataSet><mergedItems/></merger>

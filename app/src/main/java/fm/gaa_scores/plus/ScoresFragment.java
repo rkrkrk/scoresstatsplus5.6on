@@ -37,6 +37,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
@@ -1618,17 +1619,31 @@ public class ScoresFragment extends Fragment {
 
 	private void pauseOn() {
 
-		bPause.setBackground(getResources().getDrawable(R.drawable.btn_red));
-		bStartStop
-				.setBackground(getResources().getDrawable(R.drawable.btn_red));
+        if(Build.VERSION.SDK_INT >= 16) {
+            bPause.setBackground(getResources().getDrawable(R.drawable.btn_red));
+            bStartStop
+                    .setBackground(getResources().getDrawable(R.drawable.btn_red));
+        } else {
+            bPause.setBackgroundDrawable(getResources().getDrawable(R.drawable.btn_red));
+            bStartStop
+                    .setBackgroundDrawable(getResources().getDrawable(R.drawable.btn_red));
+        }
 		bPause.setText("resume");
 	}
 
 	private void pauseOff() {
 		pause = false;
-		bPause.setBackground(getResources().getDrawable(R.drawable.btn_blue));
-		bStartStop.setBackground(getResources()
-				.getDrawable(R.drawable.btn_blue));
+
+        if(Build.VERSION.SDK_INT >= 16) {
+            bPause.setBackground(getResources().getDrawable(R.drawable.btn_blue));
+            bStartStop.setBackground(getResources()
+                    .getDrawable(R.drawable.btn_blue));
+        }else {
+            bPause.setBackgroundDrawable(getResources().getDrawable(R.drawable.btn_blue));
+            bStartStop.setBackgroundDrawable(getResources()
+                    .getDrawable(R.drawable.btn_blue));
+        }
+
 		bPause.setText("pause");
 	}
 
@@ -1841,7 +1856,7 @@ public class ScoresFragment extends Fragment {
 		case R.id.phone:
 			AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());
 			input = new EditText(getActivity());
-			input.setId(991);
+			input.setId(R.id.scoresfragment991);
 			phone = phone.replace(",", "-");
 			input.setText(phone);
 			input.setSingleLine(false);
