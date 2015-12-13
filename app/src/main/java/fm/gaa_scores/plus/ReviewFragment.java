@@ -1671,15 +1671,21 @@ public class ReviewFragment extends Fragment {
 	};
 
 	public Intent findTwitterClient() {
+        Intent intent = new Intent(Intent.ACTION_SEND);
+        intent.putExtra(Intent.EXTRA_TEXT, "messagee");
+        intent.setType("text/plain");
+        PackageManager pm = getActivity().getPackageManager();
+        List<ResolveInfo> activityList = pm.queryIntentActivities(intent, 0);
+        for (int i=0; i<activityList.size(); i++)
+        { ResolveInfo app = (ResolveInfo) activityList.get(i);
+            Log.i("wwwwwww", "APP = "+app.activityInfo.name);
+        }
 		final String[] twitterApps = {
 				// package // name - nb installs (thousands)
-				"com.twitter.android", // official - 10 000
-				"com.twidroid", // twidroid - 5 000
-				"com.handmark.tweetcaster", // Tweecaster - 5 000
-				"com.thedeck.android" }; // TweetDeck - 5 000 };
+				"com.twitter.android"}; // TweetDeck - 5 000 };
 		Intent tweetIntent = new Intent(Intent.ACTION_SEND);
-		tweetIntent.setType("text/plain");
-		final PackageManager packageManager = getActivity().getPackageManager();
+        tweetIntent.setType("text/plain");
+        intent.setClassName("com.twitter.android", "com.twitter.android.composer.ComposerActivity");		final PackageManager packageManager = getActivity().getPackageManager();
 		List<ResolveInfo> list = packageManager.queryIntentActivities(
 				tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);
 

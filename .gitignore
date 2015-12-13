@@ -1,5 +1,4 @@
 # built application files
-*.apk
 *.ap_
 
 # files for the dex VM
@@ -36,7 +35,8 @@ proguard/
 .idea
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
-build/
+/*/build/
+app/build/
 *.iml
 
 #fh stuff
