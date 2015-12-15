@@ -24,6 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import fm.gaa_scores.plus.R;
+import fm.gaa_scores.plus.Utils.ShareIntents;
+
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -61,12 +63,15 @@ public class ScorersFragment extends ListFragment {
 	private TextView tOwnTeam, tOppTeam;
 	private String ownTeam, oppTeam;
 	private Button bSendAll, bTweetAll;
+	private Intent tweetIntent;
+	private Context context;
 
 	@Override
 	// start main method to display screen
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.scorers, container, false);
+		context = getActivity();
 
 		String myTag = getTag();
 		((Startup) getActivity()).setTagFragmentScorers(myTag);
@@ -509,22 +514,25 @@ public class ScorersFragment extends ListFragment {
 			}
 
 			try {
-				final Intent shareIntent = findTwitterClient();
-				shareIntent.putExtra(Intent.EXTRA_TEXT, ownTeam
+				tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+				tweetIntent.putExtra(Intent.EXTRA_TEXT, ownTeam
 						+ " v. "
 						+ oppTeam
 						+ " scorers\n"
 						+ ((Startup) getActivity()).getFragmentScore()
 								.getLocText());
-				shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
+				tweetIntent.putExtra(Intent.EXTRA_STREAM, uri);
 				// introduce delay to give time to read in bitmap before sending
 				// tweet
 				Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					@Override
 					public void run() {
-						startActivity(Intent
-								.createChooser(shareIntent, "Share"));
+						if (ShareIntents.getInstance().isHaveTwitter()) {
+							startActivity(tweetIntent);
+						} else {
+							startActivity(Intent.createChooser(tweetIntent, "Share"));
+						}
 					}
 				}, 400);
 			} catch (Exception ex) {
@@ -536,31 +544,6 @@ public class ScorersFragment extends ListFragment {
 			}
 		}
 	};
-
-	public Intent findTwitterClient() {
-		final String[] twitterApps = {
-				// package // name - nb installs (thousands)
-				"com.twitter.android", // official - 10 000
-				"com.twidroid", // twidroid - 5 000
-				"com.handmark.tweetcaster", // Tweecaster - 5 000
-				"com.thedeck.android" }; // TweetDeck - 5 000 };
-		Intent tweetIntent = new Intent(Intent.ACTION_SEND);
-		tweetIntent.setType("text/plain");
-		final PackageManager packageManager = getActivity().getPackageManager();
-		List<ResolveInfo> list = packageManager.queryIntentActivities(
-				tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);
-
-		for (int i = 0; i < twitterApps.length; i++) {
-			for (ResolveInfo resolveInfo : list) {
-				String p = resolveInfo.activityInfo.packageName;
-				if (p != null && p.startsWith(twitterApps[i])) {
-					tweetIntent.setPackage(p);
-					return tweetIntent;
-				}
-			}
-		}
-		return null;
-	}
 
 	// this method is called from the SETUP fragment to update the names of the
 	// home and away teams and to receive team line and teams from setup screen

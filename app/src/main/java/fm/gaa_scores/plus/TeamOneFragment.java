@@ -67,6 +67,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import fm.gaa_scores.plus.Utils.ShareIntents;
+
 public class TeamOneFragment extends Fragment {
 	// ArrayList to store panel from database
 	private ArrayList<String> panelList = new ArrayList<String>();
@@ -92,6 +94,8 @@ public class TeamOneFragment extends Fragment {
 	private boolean bloodSub = false;
 	private StringBuilder strBuilderSub = new StringBuilder();
 	private StringBuilder strBuilderCards = new StringBuilder();
+	private Intent tweetIntent;
+	private Context context;
 
 	// setup uri to read panel from database using content provider
 	Uri allTitles = TeamContentProvider.CONTENT_URI;
@@ -109,6 +113,7 @@ public class TeamOneFragment extends Fragment {
 		((Startup) getActivity()).setTagFragmentTeamOne(myTag);
 		this.setHasOptionsMenu(true);
 		v.setBackgroundColor(Color.rgb(204, 255, 204));
+		context = getActivity();
 
 		// hide softkeyboard after entry
 		// getActivity().getWindow().setSoftInputMode(
@@ -643,23 +648,27 @@ public class TeamOneFragment extends Fragment {
 			}
 
 			try {
-				final Intent shareIntent = findTwitterClient();
-				shareIntent.putExtra(Intent.EXTRA_TEXT, panelName
+				tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+				tweetIntent.putExtra(Intent.EXTRA_TEXT, panelName
 						+ " Team Selection \n"
 						+ ((Startup) getActivity()).getFragmentScore()
 								.getLocText());
-				shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
+				tweetIntent.putExtra(Intent.EXTRA_STREAM, uri);
 				// introduce delay to give time to read in bitmap before sending
 				// tweet
 				Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					@Override
 					public void run() {
-						startActivity(Intent
-								.createChooser(shareIntent, "Share"));
+						if (ShareIntents.getInstance().isHaveTwitter()) {
+							startActivity(tweetIntent);
+						} else {
+							startActivity(Intent.createChooser(tweetIntent, "Share"));
+						}
 					}
 				}, 400);
 			} catch (Exception ex) {
+				Log.i("cant find twitter", ex.toString());
 				Toast.makeText(
 						getActivity(),
 						"Can't find twitter client\n"
@@ -669,31 +678,6 @@ public class TeamOneFragment extends Fragment {
 
 		}
 	};
-
-	public Intent findTwitterClient() {
-		final String[] twitterApps = {
-				// package // name - nb installs (thousands)
-				"com.twitter.android", // official - 10 000
-				"com.twidroid", // twidroid - 5 000
-				"com.handmark.tweetcaster", // Tweecaster - 5 000
-				"com.thedeck.android" }; // TweetDeck - 5 000 };
-		Intent tweetIntent = new Intent(Intent.ACTION_SEND);
-		tweetIntent.setType("text/plain");
-		final PackageManager packageManager = getActivity().getPackageManager();
-		List<ResolveInfo> list = packageManager.queryIntentActivities(
-				tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);
-
-		for (int i = 0; i < twitterApps.length; i++) {
-			for (ResolveInfo resolveInfo : list) {
-				String p = resolveInfo.activityInfo.packageName;
-				if (p != null && p.startsWith(twitterApps[i])) {
-					tweetIntent.setPackage(p);
-					return tweetIntent;
-				}
-			}
-		}
-		return null;
-	}
 
 	private void getTeam(String teamName) {
 		// load panel from database and assign to arraylist
@@ -2102,7 +2086,7 @@ public class TeamOneFragment extends Fragment {
 		}
 
 		catch (Exception ex) {
-			Log.e("error with deleting downloads", ex.toString());
+			Log.e("team2Error","error with deleting downloads" + ex.toString());
 		}
 	}
 

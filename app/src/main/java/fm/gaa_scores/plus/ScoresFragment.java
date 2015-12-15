@@ -117,7 +117,7 @@ public class ScoresFragment extends Fragment {
         context = getActivity();
 
         //set up TweetIntent
-        tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+//        tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
 
         // open sharedpreferences file to read in saved persisted data on
         // startup
@@ -665,10 +665,15 @@ public class ScoresFragment extends Fragment {
                             switch (txtButton) {
                                 case R.id.bTweetRecent:
                                     try {
-                                        Intent shareIntent = findTwitterClient();
-                                        shareIntent.putExtra(Intent.EXTRA_TEXT,
+                                        tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+                                        tweetIntent.putExtra(Intent.EXTRA_TEXT,
                                                 str.toString());
-                                        startActivity(shareIntent);
+                                        if (ShareIntents.getInstance().isHaveTwitter()) {
+                                            startActivity(tweetIntent);
+                                        } else {
+                                            startActivity(Intent.createChooser(tweetIntent, "Share"));
+                                        }
+
                                     } catch (Exception ex) {
                                         Log.e("Error in Tweet1", ex.toString());
                                         Toast.makeText(
@@ -737,11 +742,15 @@ public class ScoresFragment extends Fragment {
             switch (txtButton) {
                 case R.id.bTweetLast:
                     try {
-                        Intent shareIntent = findTwitterClient();
-                        shareIntent.putExtra(Intent.EXTRA_TEXT, getScore(false)
+                        tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+                        tweetIntent.putExtra(Intent.EXTRA_TEXT, getScore(false)
                                 + str);
-//					startActivity(Intent.createChooser(shareIntent, "Share"));
-                        startActivity(shareIntent);
+                        if (ShareIntents.getInstance().isHaveTwitter()) {
+                            startActivity(tweetIntent);
+                        } else {
+                            startActivity(Intent.createChooser(tweetIntent, "Share"));
+                        }
+
                     } catch (Exception ex) {
                         Log.e("Error in Tweet", ex.toString());
                         Toast.makeText(
@@ -803,39 +812,6 @@ public class ScoresFragment extends Fragment {
             }
         }
     };
-
-    public Intent findTwitterClient() {
-        final String[] twitterApps = {
-                // package // name - nb installs (thousands)
-                "com.twitter.android", // official - 10 000
-                "com.twidroid", // twidroid - 5 000
-                "com.handmark.tweetcaster", // Tweecaster - 5 000
-                "com.thedeck.android"}; // TweetDeck - 5 000 };
-        Intent tweetIntent = new Intent();
-        tweetIntent.setType("text/plain");
-        final PackageManager packageManager = this.context.getPackageManager();
-        List<ResolveInfo> list = packageManager.queryIntentActivities(
-                tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);
-
-        for (int i = 0; i < twitterApps.length; i++) {
-            for (ResolveInfo resolveInfo : list) {
-                String p = resolveInfo.activityInfo.packageName;
-                if (p != null && p.startsWith(twitterApps[i])) {
-                    Log.i("twitter", p);
-                    tweetIntent.setPackage(p);
-                    String c = resolveInfo.activityInfo.name;
-                    if (p.startsWith(twitterApps[0]) && c != null && c.startsWith("com.twitter.android.composer.ComposerActivity")) {
-                        Log.i("twitter class", c);
-                        tweetIntent.setClassName(p, c);
-                        return tweetIntent;
-                    } else if (!p.startsWith(twitterApps[0])) {
-                        return tweetIntent;
-                    }
-                }
-            }
-        }
-        return null;
-    }
 
     // for reset buttons diplay message to long click, won't work with ordinary
     // click
@@ -1861,19 +1837,56 @@ public class ScoresFragment extends Fragment {
                 startActivity(ihelp);
                 return true;
             case R.id.resetTimer:
-                resetTime();
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("Reset Timer")
+                        .setMessage("Do you really want to reset timer?")
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                resetTime();
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, null).show();
                 return true;
             case R.id.resetScore:
-                resetScore();
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("Reset Score")
+                        .setMessage("Do you really want to reset score?")
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                resetScore();
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, null).show();
                 return true;
             case R.id.resetStats:
-                resetStats();
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("Reset Stats")
+                        .setMessage("Do you really want to reset stats?")
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                resetStats();
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, null).show();
                 return true;
             case R.id.resetAll:
-                tLoc.setText("");
-                resetTime();
-                resetScore();
-                resetStats();
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("Reset All")
+                        .setMessage("Do you really want to reset timer, score and stats?")
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int whichButton) {
+                                resetStats();
+                                resetTime();
+                                resetScore();
+                                tLoc.setText("");
+                            }
+                        })
+                        .setNegativeButton(android.R.string.no, null).show();
+
                 return true;
             case R.id.phone:
                 AlertDialog.Builder alert = new AlertDialog.Builder(getActivity());

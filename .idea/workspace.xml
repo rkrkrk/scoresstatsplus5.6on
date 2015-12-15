@@ -18,31 +18,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51812ca8-61bf-4185-a2db-4c2760295220" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\.idea\libraries\support_v4_19_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\generated\source\buildConfig\test\debug\fm\gaa_scores\plus\test\BuildConfig.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\incremental\aidl\test\debug\dependency.store" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\incremental\mergeAssets\test\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\incremental\mergeResources\test\debug\merger.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\manifests\test\debug\AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\res\resources-debug-test.ap_" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\fm\AndroidStudioProjects\gaaScoresStatsOrig5_6on\app\build\intermediates\tmp\dex\debug\inputList.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/EventsListFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/EventsListFragment$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/EventsListFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/EventsListFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/HelpActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/HelpActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/InputActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/InputActivity$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/InputActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/InputActivity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ListSubsCards.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ListSubsCards.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$array.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$array.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ReviewFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScorersFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$11.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$12$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$12$1.class" />
@@ -53,53 +36,75 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$16.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$16.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$17.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$18.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/ScoresFragment.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/Startup.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/Startup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$14$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$14$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$16.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$4$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamOneFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$14$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$14$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$15.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$15.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$16.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$16.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17$1$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$17.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$18.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$18.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$4$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/fm/gaa_scores/plus/TeamTwoFragment.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-19.0.0-f5ce92222cd01aaf035756f537b502b04bccd676.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-19.0.0-f5ce92222cd01aaf035756f537b502b04bccd676.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/fm/gaa_scores/plus/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/fm/gaa_scores/plus/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamOneFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamOneFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gaaScoresStatsOrig5_6on.iml" afterPath="$PROJECT_DIR$/gaaScoresStatsOrig5_6on.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gaaScoresStats.iws" />
@@ -143,7 +148,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state />
+        </projects_view>
       </state>
     </system>
   </component>
@@ -151,56 +158,130 @@
     <favorites_list name="gaaScoresStats" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48342714">
+    <splitter split-orientation="horizontal" split-proportion="0.48509052">
       <split-first>
         <leaf>
-          <file leaf-file-name="TeamTwoFragment.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="1554" column="66" selection-start-line="1554" selection-start-column="66" selection-end-line="1554" selection-end-column="66" />
-                  <folding>
-                    <element signature="e#0#72057#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#36148#36149#0" expanded="false" />
-                    <element signature="e#36169#36170#0" expanded="false" />
-                    <element signature="e#39396#39397#0" expanded="false" />
-                    <element signature="e#39420#39421#0" expanded="false" />
-                    <element signature="e#62403#62404#0" expanded="false" />
-                    <element signature="e#62428#62429#0" expanded="false" />
-                    <element signature="e#69859#69860#0" expanded="false" />
-                    <element signature="e#69891#69892#0" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="TeamOneFragment.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamOneFragment.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="187" column="36" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="36" />
+                  <caret line="2086" column="0" selection-start-line="2086" selection-start-column="0" selection-end-line="2086" selection-end-column="0" />
                   <folding>
-                    <element signature="e#0#72270#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                    <element signature="e#36136#36137#0" expanded="false" />
-                    <element signature="e#36157#36158#0" expanded="false" />
-                    <element signature="e#39576#39577#0" expanded="false" />
-                    <element signature="e#39600#39601#0" expanded="false" />
-                    <element signature="e#62585#62586#0" expanded="false" />
-                    <element signature="e#62610#62611#0" expanded="false" />
-                    <element signature="e#70043#70044#0" expanded="false" />
-                    <element signature="e#70075#70076#0" expanded="false" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2157#2165#0" expanded="true" />
+                    <element signature="e#2220#2228#0" expanded="true" />
+                    <element signature="e#22677#24562#0" expanded="true" />
+                    <element signature="e#24561#24562#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ScoresFragment.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="ScoresFragment.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java">
               <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-15.62963">
+                  <caret line="1865" column="64" selection-start-line="1865" selection-start-column="64" selection-end-line="1865" selection-end-column="64" />
+                  <folding>
+                    <element signature="e#3217#3234#0" expanded="true" />
+                    <element signature="e#3454#3462#0" expanded="true" />
+                    <element signature="e#7894#9354#0" expanded="true" />
+                    <element signature="e#8311#8319#0" expanded="true" />
+                    <element signature="e#8590#9312#0" expanded="true" />
+                    <element signature="e#9311#9312#0" expanded="true" />
+                    <element signature="e#9353#9354#0" expanded="true" />
+                    <element signature="e#11705#15637#0" expanded="true" />
+                    <element signature="e#15636#15637#0" expanded="true" />
+                    <element signature="e#15868#16299#0" expanded="true" />
+                    <element signature="e#16298#16299#0" expanded="true" />
+                    <element signature="e#16542#17053#0" expanded="true" />
+                    <element signature="e#17052#17053#0" expanded="true" />
+                    <element signature="e#18681#19676#0" expanded="true" />
+                    <element signature="e#19112#19543#0" expanded="true" />
+                    <element signature="e#19542#19543#0" expanded="true" />
+                    <element signature="e#19675#19676#0" expanded="true" />
+                    <element signature="e#26007#32997#0" expanded="true" />
+                    <element signature="e#28921#29844#0" expanded="true" />
+                    <element signature="e#29843#29844#0" expanded="true" />
+                    <element signature="e#29911#32902#0" expanded="true" />
+                    <element signature="e#32901#32902#0" expanded="true" />
+                    <element signature="e#32996#32997#0" expanded="true" />
+                    <element signature="e#33040#36172#0" expanded="true" />
+                    <element signature="e#36171#36172#0" expanded="true" />
+                    <element signature="e#36216#37683#0" expanded="true" />
+                    <element signature="e#37682#37683#0" expanded="true" />
+                    <element signature="e#37820#38244#0" expanded="true" />
+                    <element signature="e#38243#38244#0" expanded="true" />
+                    <element signature="e#64557#65381#0" expanded="true" />
+                    <element signature="e#65380#65381#0" expanded="true" />
+                    <element signature="e#66833#70636#0" expanded="true" />
+                    <element signature="e#70635#70636#0" expanded="true" />
+                    <element signature="e#70681#72041#0" expanded="true" />
+                    <element signature="e#71065#71073#0" expanded="true" />
+                    <element signature="e#71319#72007#0" expanded="true" />
+                    <element signature="e#72006#72007#0" expanded="true" />
+                    <element signature="e#72040#72041#0" expanded="true" />
+                    <element signature="e#72090#72295#0" expanded="true" />
+                    <element signature="e#72294#72295#0" expanded="true" />
+                    <element signature="e#73263#73515#0" expanded="true" />
+                    <element signature="e#73514#73515#0" expanded="true" />
+                    <element signature="e#74753#75674#0" expanded="true" />
+                    <element signature="e#75673#75674#0" expanded="true" />
+                    <element signature="e#76445#78568#0" expanded="true" />
+                    <element signature="e#78567#78568#0" expanded="true" />
+                    <element signature="e#82986#83005#0" expanded="true" />
+                    <element signature="e#83421#83652#0" expanded="true" />
+                    <element signature="e#83651#83652#0" expanded="true" />
+                    <element signature="e#84107#84339#0" expanded="true" />
+                    <element signature="e#84338#84339#0" expanded="true" />
+                    <element signature="e#84794#85026#0" expanded="true" />
+                    <element signature="e#85025#85026#0" expanded="true" />
+                    <element signature="e#85494#85867#0" expanded="true" />
+                    <element signature="e#85866#85867#0" expanded="true" />
+                    <element signature="e#86820#87632#0" expanded="true" />
+                    <element signature="e#87631#87632#0" expanded="true" />
+                    <element signature="e#87705#89874#0" expanded="true" />
+                    <element signature="e#89873#89874#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+              <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="780" column="0" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+                  <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/settings.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="local.properties" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/local.properties">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/build.gradle">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -209,10 +290,12 @@
           <file leaf-file-name="ScorersFragment.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="251" column="56" selection-start-line="251" selection-start-column="51" selection-end-line="251" selection-end-column="56" />
+                <state vertical-scroll-proportion="-6.8653846">
+                  <caret line="73" column="32" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="32" />
                   <folding>
-                    <element signature="e#0#19701#0" expanded="false" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#16404#18039#0" expanded="true" />
+                    <element signature="e#18038#18039#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -248,8 +331,8 @@
           <file leaf-file-name="ShareIntents.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.2133527">
-                  <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+                <state vertical-scroll-proportion="1.1123439">
+                  <caret line="67" column="40" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="40" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -262,19 +345,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#1614#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ids.xml.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -283,11 +353,26 @@
           <file leaf-file-name="ReviewFragment.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="1704" column="31" selection-start-line="1704" selection-start-column="31" selection-end-line="1704" selection-end-column="31" />
+                <state vertical-scroll-proportion="-3.2692308">
+                  <caret line="1646" column="19" selection-start-line="1646" selection-start-column="19" selection-end-line="1646" selection-end-column="19" />
                   <folding>
-                    <element signature="e#0#61227#0" expanded="false" />
-                    <element signature="imports" expanded="false" />
+                    <element signature="e#57854#59551#0" expanded="true" />
+                    <element signature="e#59550#59551#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="TeamTwoFragment.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-15.740741">
+                  <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
+                  <folding>
+                    <element signature="e#2160#2168#0" expanded="true" />
+                    <element signature="e#2223#2231#0" expanded="true" />
+                    <element signature="e#22771#24824#0" expanded="true" />
+                    <element signature="e#24823#24824#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -1735,8 +1820,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/shareIntent.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamOneFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -1778,8 +1868,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1842,10 +1931,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gaaScoresStatsOrig5_6on" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1860,7 +1964,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0388703e437d64d6" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21" />
     <property name="FullScreen" value="false" />
     <property name="last_opened_file_path" value="C:/android/Rugby" />
@@ -2065,41 +2169,41 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1208" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.4978701" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29924953" sideWeight="0.49361023" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39962476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20919324" sideWeight="0.5063898" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12193823" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.4978701" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12193823" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960597" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1485623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2889306" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1485623" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2889306" sideWeight="0.4978701" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2739212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2118,50 +2222,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java</url>
-          <line>1682</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>823</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>829</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>826</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>827</line>
-          <properties />
-          <option name="timeStamp" value="22" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>779</line>
-          <properties />
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java</url>
-          <line>780</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java</url>
-          <line>67</line>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
@@ -2171,43 +2233,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamContentProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1924" column="39" selection-start-line="1924" selection-start-column="39" selection-end-line="1924" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#72057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36148#36149#0" expanded="false" />
-            <element signature="e#36169#36170#0" expanded="false" />
-            <element signature="e#39396#39397#0" expanded="false" />
-            <element signature="e#39420#39421#0" expanded="false" />
-            <element signature="e#62403#62404#0" expanded="false" />
-            <element signature="e#62428#62429#0" expanded="false" />
-            <element signature="e#69859#69860#0" expanded="false" />
-            <element signature="e#69891#69892#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/scorers.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="461" column="42" selection-start-line="461" selection-start-column="42" selection-end-line="461" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/EventsListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -2228,16 +2253,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1136" column="20" selection-start-line="1136" selection-start-column="20" selection-end-line="1136" selection-end-column="20" />
           <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2246,7 +2266,67 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1874" column="57" selection-start-line="1874" selection-start-column="57" selection-end-line="1874" selection-end-column="57" />
-          <folding />
+          <folding>
+            <element signature="e#3217#3234#0" expanded="true" />
+            <element signature="e#3454#3462#0" expanded="true" />
+            <element signature="e#7894#9354#0" expanded="true" />
+            <element signature="e#8311#8319#0" expanded="true" />
+            <element signature="e#8590#9312#0" expanded="true" />
+            <element signature="e#9311#9312#0" expanded="true" />
+            <element signature="e#9353#9354#0" expanded="true" />
+            <element signature="e#11705#15637#0" expanded="true" />
+            <element signature="e#15636#15637#0" expanded="true" />
+            <element signature="e#15868#16299#0" expanded="true" />
+            <element signature="e#16298#16299#0" expanded="true" />
+            <element signature="e#16542#17053#0" expanded="true" />
+            <element signature="e#17052#17053#0" expanded="true" />
+            <element signature="e#18681#19676#0" expanded="true" />
+            <element signature="e#19112#19543#0" expanded="true" />
+            <element signature="e#19542#19543#0" expanded="true" />
+            <element signature="e#19675#19676#0" expanded="true" />
+            <element signature="e#26007#32997#0" expanded="true" />
+            <element signature="e#28921#29844#0" expanded="true" />
+            <element signature="e#29843#29844#0" expanded="true" />
+            <element signature="e#29911#32902#0" expanded="true" />
+            <element signature="e#32901#32902#0" expanded="true" />
+            <element signature="e#32996#32997#0" expanded="true" />
+            <element signature="e#33040#36172#0" expanded="true" />
+            <element signature="e#36171#36172#0" expanded="true" />
+            <element signature="e#36216#37683#0" expanded="true" />
+            <element signature="e#37682#37683#0" expanded="true" />
+            <element signature="e#37820#38244#0" expanded="true" />
+            <element signature="e#38243#38244#0" expanded="true" />
+            <element signature="e#64557#65381#0" expanded="true" />
+            <element signature="e#65380#65381#0" expanded="true" />
+            <element signature="e#66833#70636#0" expanded="true" />
+            <element signature="e#70635#70636#0" expanded="true" />
+            <element signature="e#70681#72041#0" expanded="true" />
+            <element signature="e#71065#71073#0" expanded="true" />
+            <element signature="e#71319#72007#0" expanded="true" />
+            <element signature="e#72006#72007#0" expanded="true" />
+            <element signature="e#72040#72041#0" expanded="true" />
+            <element signature="e#72090#72295#0" expanded="true" />
+            <element signature="e#72294#72295#0" expanded="true" />
+            <element signature="e#73263#73515#0" expanded="true" />
+            <element signature="e#73514#73515#0" expanded="true" />
+            <element signature="e#74753#75674#0" expanded="true" />
+            <element signature="e#75673#75674#0" expanded="true" />
+            <element signature="e#76445#78568#0" expanded="true" />
+            <element signature="e#78567#78568#0" expanded="true" />
+            <element signature="e#82986#83005#0" expanded="true" />
+            <element signature="e#83421#83652#0" expanded="true" />
+            <element signature="e#83651#83652#0" expanded="true" />
+            <element signature="e#84107#84339#0" expanded="true" />
+            <element signature="e#84338#84339#0" expanded="true" />
+            <element signature="e#84794#85026#0" expanded="true" />
+            <element signature="e#85025#85026#0" expanded="true" />
+            <element signature="e#85494#85867#0" expanded="true" />
+            <element signature="e#85866#85867#0" expanded="true" />
+            <element signature="e#86820#87632#0" expanded="true" />
+            <element signature="e#87631#87632#0" expanded="true" />
+            <element signature="e#87705#89874#0" expanded="true" />
+            <element signature="e#89873#89874#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2269,16 +2349,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1924" column="39" selection-start-line="1924" selection-start-column="39" selection-end-line="1924" selection-end-column="39" />
           <folding>
-            <element signature="e#0#72057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36148#36149#0" expanded="false" />
-            <element signature="e#36169#36170#0" expanded="false" />
-            <element signature="e#39396#39397#0" expanded="false" />
-            <element signature="e#39420#39421#0" expanded="false" />
-            <element signature="e#62403#62404#0" expanded="false" />
-            <element signature="e#62428#62429#0" expanded="false" />
-            <element signature="e#69859#69860#0" expanded="false" />
-            <element signature="e#69891#69892#0" expanded="false" />
+            <element signature="e#2160#2168#0" expanded="true" />
+            <element signature="e#2223#2231#0" expanded="true" />
+            <element signature="e#22771#24824#0" expanded="true" />
+            <element signature="e#24823#24824#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2314,16 +2388,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1069" column="48" selection-start-line="1065" selection-start-column="12" selection-end-line="1069" selection-end-column="48" />
           <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2347,16 +2416,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1924" column="39" selection-start-line="1924" selection-start-column="39" selection-end-line="1924" selection-end-column="39" />
           <folding>
-            <element signature="e#0#72057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36148#36149#0" expanded="false" />
-            <element signature="e#36169#36170#0" expanded="false" />
-            <element signature="e#39396#39397#0" expanded="false" />
-            <element signature="e#39420#39421#0" expanded="false" />
-            <element signature="e#62403#62404#0" expanded="false" />
-            <element signature="e#62428#62429#0" expanded="false" />
-            <element signature="e#69859#69860#0" expanded="false" />
-            <element signature="e#69891#69892#0" expanded="false" />
+            <element signature="e#2160#2168#0" expanded="true" />
+            <element signature="e#2223#2231#0" expanded="true" />
+            <element signature="e#22771#24824#0" expanded="true" />
+            <element signature="e#24823#24824#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2392,16 +2455,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1069" column="48" selection-start-line="1065" selection-start-column="12" selection-end-line="1069" selection-end-column="48" />
           <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2425,16 +2483,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1913" column="37" selection-start-line="1913" selection-start-column="37" selection-end-line="1913" selection-end-column="37" />
           <folding>
-            <element signature="e#0#72057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36148#36149#0" expanded="false" />
-            <element signature="e#36169#36170#0" expanded="false" />
-            <element signature="e#39396#39397#0" expanded="false" />
-            <element signature="e#39420#39421#0" expanded="false" />
-            <element signature="e#62403#62404#0" expanded="false" />
-            <element signature="e#62428#62429#0" expanded="false" />
-            <element signature="e#69859#69860#0" expanded="false" />
-            <element signature="e#69891#69892#0" expanded="false" />
+            <element signature="e#2160#2168#0" expanded="true" />
+            <element signature="e#2223#2231#0" expanded="true" />
+            <element signature="e#22771#24824#0" expanded="true" />
+            <element signature="e#24823#24824#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2459,16 +2511,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1906" column="0" selection-start-line="1906" selection-start-column="0" selection-end-line="1906" selection-end-column="0" />
           <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2478,16 +2525,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="1906" column="0" selection-start-line="1906" selection-start-column="0" selection-end-line="1906" selection-end-column="0" />
           <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2559,17 +2601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ListSubsCards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#1614#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Startup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14804064">
@@ -2588,60 +2619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="248" column="0" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1554" column="66" selection-start-line="1554" selection-start-column="66" selection-end-line="1554" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#72057#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36148#36149#0" expanded="false" />
-            <element signature="e#36169#36170#0" expanded="false" />
-            <element signature="e#39396#39397#0" expanded="false" />
-            <element signature="e#39420#39421#0" expanded="false" />
-            <element signature="e#62403#62404#0" expanded="false" />
-            <element signature="e#62428#62429#0" expanded="false" />
-            <element signature="e#69859#69860#0" expanded="false" />
-            <element signature="e#69891#69892#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21974148">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1704" column="31" selection-start-line="1704" selection-start-column="31" selection-end-line="1704" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#61227#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2667,12 +2644,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2467344">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ListSubsCards.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="251" column="56" selection-start-line="251" selection-start-column="51" selection-end-line="251" selection-end-column="56" />
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScorersFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8653846">
+          <caret line="73" column="32" selection-start-line="73" selection-start-column="8" selection-end-line="73" selection-end-column="32" />
           <folding>
-            <element signature="e#0#19701#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#16404#18039#0" expanded="true" />
+            <element signature="e#18038#18039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamTwoFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.740741">
+          <caret line="109" column="63" selection-start-line="109" selection-start-column="63" selection-end-line="109" selection-end-column="63" />
+          <folding>
+            <element signature="e#2160#2168#0" expanded="true" />
+            <element signature="e#2223#2231#0" expanded="true" />
+            <element signature="e#22771#24824#0" expanded="true" />
+            <element signature="e#24823#24824#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ReviewFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="1646" column="19" selection-start-line="1646" selection-start-column="19" selection-end-line="1646" selection-end-column="19" />
+          <folding>
+            <element signature="e#57854#59551#0" expanded="true" />
+            <element signature="e#59550#59551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1123439">
+          <caret line="67" column="40" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2680,36 +2709,121 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/TeamOneFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="187" column="36" selection-start-line="187" selection-start-column="20" selection-end-line="187" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#72270#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#36136#36137#0" expanded="false" />
-            <element signature="e#36157#36158#0" expanded="false" />
-            <element signature="e#39576#39577#0" expanded="false" />
-            <element signature="e#39600#39601#0" expanded="false" />
-            <element signature="e#62585#62586#0" expanded="false" />
-            <element signature="e#62610#62611#0" expanded="false" />
-            <element signature="e#70043#70044#0" expanded="false" />
-            <element signature="e#70075#70076#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/Utils/ShareIntents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2133527">
-          <caret line="68" column="26" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="26" />
+          <caret line="2086" column="0" selection-start-line="2086" selection-start-column="0" selection-end-line="2086" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2157#2165#0" expanded="true" />
+            <element signature="e#2220#2228#0" expanded="true" />
+            <element signature="e#22677#24562#0" expanded="true" />
+            <element signature="e#24561#24562#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fm/gaa_scores/plus/ScoresFragment.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.62963">
+          <caret line="1865" column="64" selection-start-line="1865" selection-start-column="64" selection-end-line="1865" selection-end-column="64" />
+          <folding>
+            <element signature="e#3217#3234#0" expanded="true" />
+            <element signature="e#3454#3462#0" expanded="true" />
+            <element signature="e#7894#9354#0" expanded="true" />
+            <element signature="e#8311#8319#0" expanded="true" />
+            <element signature="e#8590#9312#0" expanded="true" />
+            <element signature="e#9311#9312#0" expanded="true" />
+            <element signature="e#9353#9354#0" expanded="true" />
+            <element signature="e#11705#15637#0" expanded="true" />
+            <element signature="e#15636#15637#0" expanded="true" />
+            <element signature="e#15868#16299#0" expanded="true" />
+            <element signature="e#16298#16299#0" expanded="true" />
+            <element signature="e#16542#17053#0" expanded="true" />
+            <element signature="e#17052#17053#0" expanded="true" />
+            <element signature="e#18681#19676#0" expanded="true" />
+            <element signature="e#19112#19543#0" expanded="true" />
+            <element signature="e#19542#19543#0" expanded="true" />
+            <element signature="e#19675#19676#0" expanded="true" />
+            <element signature="e#26007#32997#0" expanded="true" />
+            <element signature="e#28921#29844#0" expanded="true" />
+            <element signature="e#29843#29844#0" expanded="true" />
+            <element signature="e#29911#32902#0" expanded="true" />
+            <element signature="e#32901#32902#0" expanded="true" />
+            <element signature="e#32996#32997#0" expanded="true" />
+            <element signature="e#33040#36172#0" expanded="true" />
+            <element signature="e#36171#36172#0" expanded="true" />
+            <element signature="e#36216#37683#0" expanded="true" />
+            <element signature="e#37682#37683#0" expanded="true" />
+            <element signature="e#37820#38244#0" expanded="true" />
+            <element signature="e#38243#38244#0" expanded="true" />
+            <element signature="e#64557#65381#0" expanded="true" />
+            <element signature="e#65380#65381#0" expanded="true" />
+            <element signature="e#66833#70636#0" expanded="true" />
+            <element signature="e#70635#70636#0" expanded="true" />
+            <element signature="e#70681#72041#0" expanded="true" />
+            <element signature="e#71065#71073#0" expanded="true" />
+            <element signature="e#71319#72007#0" expanded="true" />
+            <element signature="e#72006#72007#0" expanded="true" />
+            <element signature="e#72040#72041#0" expanded="true" />
+            <element signature="e#72090#72295#0" expanded="true" />
+            <element signature="e#72294#72295#0" expanded="true" />
+            <element signature="e#73263#73515#0" expanded="true" />
+            <element signature="e#73514#73515#0" expanded="true" />
+            <element signature="e#74753#75674#0" expanded="true" />
+            <element signature="e#75673#75674#0" expanded="true" />
+            <element signature="e#76445#78568#0" expanded="true" />
+            <element signature="e#78567#78568#0" expanded="true" />
+            <element signature="e#82986#83005#0" expanded="true" />
+            <element signature="e#83421#83652#0" expanded="true" />
+            <element signature="e#83651#83652#0" expanded="true" />
+            <element signature="e#84107#84339#0" expanded="true" />
+            <element signature="e#84338#84339#0" expanded="true" />
+            <element signature="e#84794#85026#0" expanded="true" />
+            <element signature="e#85025#85026#0" expanded="true" />
+            <element signature="e#85494#85867#0" expanded="true" />
+            <element signature="e#85866#85867#0" expanded="true" />
+            <element signature="e#86820#87632#0" expanded="true" />
+            <element signature="e#87631#87632#0" expanded="true" />
+            <element signature="e#87705#89874#0" expanded="true" />
+            <element signature="e#89873#89874#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="780" column="0" selection-start-line="780" selection-start-column="0" selection-end-line="780" selection-end-column="0" />
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>

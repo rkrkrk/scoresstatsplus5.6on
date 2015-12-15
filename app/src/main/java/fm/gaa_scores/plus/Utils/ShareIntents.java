@@ -39,6 +39,7 @@ public class ShareIntents {
 
         Intent tweetIntent = new Intent();
         tweetIntent.setType("text/plain");
+        //try fibnd twitter first
         final PackageManager packageManager = c.getPackageManager();
         List<ResolveInfo> list = packageManager.queryIntentActivities(
                 tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);

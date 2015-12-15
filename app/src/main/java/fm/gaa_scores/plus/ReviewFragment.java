@@ -53,6 +53,8 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import fm.gaa_scores.plus.Utils.ShareIntents;
+
 public class ReviewFragment extends Fragment {
 	private int homeGoals, homePoints, homeTotal, oppGoals, oppPoints,
 			oppTotal;
@@ -125,12 +127,16 @@ public class ReviewFragment extends Fragment {
 	private ListView listViewStats;
 	private String cardHome = "", subHome = "";
 	private String cardOpp = "", subOpp = "";
+	private Intent tweetIntent;
+	private Context context;
+
 
 	@Override
 	// start main method to display screen
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.review_layout_new, container, false);
+		context = getActivity();
 		// Open up shared preferences file to read in persisted data on startup
 		SharedPreferences sharedPref = getActivity().getSharedPreferences(
 				"team_stats_review_data", Context.MODE_PRIVATE);
@@ -1636,28 +1642,33 @@ public class ReviewFragment extends Fragment {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
+				// TODO Auto-gen
+				//
+				// erated catch block
 				e.printStackTrace();
 			}
 
 			try {
-				final Intent shareIntent = findTwitterClient();
-				shareIntent.putExtra(Intent.EXTRA_TEXT, tOwnTeam.getText()
+				tweetIntent = ShareIntents.getInstance().getTweetIntent(context);
+				tweetIntent.putExtra(Intent.EXTRA_TEXT, tOwnTeam.getText()
 						.toString()
 						+ " v. "
 						+ tOppTeam.getText().toString()
 						+ " Stats \n"
 						+ ((Startup) getActivity()).getFragmentScore()
 								.getLocText());
-				shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
+				tweetIntent.putExtra(Intent.EXTRA_STREAM, uri);
 				// introduce delay to give time to read in bitmap before sending
 				// tweet
 				Handler handler = new Handler();
 				handler.postDelayed(new Runnable() {
 					@Override
 					public void run() {
-						startActivity(Intent
-								.createChooser(shareIntent, "Share"));
+						if (ShareIntents.getInstance().isHaveTwitter()) {
+							startActivity(tweetIntent);
+						} else {
+							startActivity(Intent.createChooser(tweetIntent, "Share"));
+						}
 					}
 				}, 400);
 			} catch (Exception ex) {
@@ -1669,37 +1680,6 @@ public class ReviewFragment extends Fragment {
 			}
 		}
 	};
-
-	public Intent findTwitterClient() {
-        Intent intent = new Intent(Intent.ACTION_SEND);
-        intent.putExtra(Intent.EXTRA_TEXT, "messagee");
-        intent.setType("text/plain");
-        PackageManager pm = getActivity().getPackageManager();
-        List<ResolveInfo> activityList = pm.queryIntentActivities(intent, 0);
-        for (int i=0; i<activityList.size(); i++)
-        { ResolveInfo app = (ResolveInfo) activityList.get(i);
-            Log.i("wwwwwww", "APP = "+app.activityInfo.name);
-        }
-		final String[] twitterApps = {
-				// package // name - nb installs (thousands)
-				"com.twitter.android"}; // TweetDeck - 5 000 };
-		Intent tweetIntent = new Intent(Intent.ACTION_SEND);
-        tweetIntent.setType("text/plain");
-        intent.setClassName("com.twitter.android", "com.twitter.android.composer.ComposerActivity");		final PackageManager packageManager = getActivity().getPackageManager();
-		List<ResolveInfo> list = packageManager.queryIntentActivities(
-				tweetIntent, PackageManager.MATCH_DEFAULT_ONLY);
-
-		for (int i = 0; i < twitterApps.length; i++) {
-			for (ResolveInfo resolveInfo : list) {
-				String p = resolveInfo.activityInfo.packageName;
-				if (p != null && p.startsWith(twitterApps[i])) {
-					tweetIntent.setPackage(p);
-					return tweetIntent;
-				}
-			}
-		}
-		return null;
-	}
 
 	@Override
 	public void onCreateOptionsMenu(final Menu menu, final MenuInflater inflater) {
