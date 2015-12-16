@@ -149,14 +149,23 @@ public class TeamOneFragment extends Fragment {
 		updateCards();
 		updateSubsList();
 
+
 		// Listener for reset team button
 		// resets team lineup and edittext fields
 		bButtonReset.setOnLongClickListener(new View.OnLongClickListener() {
 			@Override
 			public boolean onLongClick(View v) {
-				resetTeam();
-				v.playSoundEffect(SoundEffectConstants.CLICK);
-				getTeam(panelName);
+				new AlertDialog.Builder(getActivity())
+						.setTitle("Reset Team Selection")
+						.setMessage("Do you really want to reset team selection?")
+						.setIcon(android.R.drawable.ic_dialog_alert)
+						.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+							public void onClick(DialogInterface dialog, int whichButton) {
+								resetTeam();
+								getTeam(panelName);
+							}
+						})
+						.setNegativeButton(android.R.string.no, null).show();
 				return true;
 			}
 		});
@@ -2126,7 +2135,17 @@ public class TeamOneFragment extends Fragment {
 			deleteTeam();
 			return true;
 		case R.id.resetTeam:
-			resetTeam();
+			new AlertDialog.Builder(getActivity())
+					.setTitle("Reset Team Selection")
+					.setMessage("Do you really want to reset team selection?")
+					.setIcon(android.R.drawable.ic_dialog_alert)
+					.setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+						public void onClick(DialogInterface dialog, int whichButton) {
+							resetTeam();
+							getTeam(panelName);
+						}
+					})
+					.setNegativeButton(android.R.string.no, null).show();
 			return true;
 		case R.id.importTeam:
 			importTeam();
